@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1904C4C72B1A827500D9C323 /* DrawingToolsPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1904C4BD2B1A827500D9C323 /* DrawingToolsPanel.swift */; };
+		1904C4C82B1A827500D9C323 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1904C4BE2B1A827500D9C323 /* SplashScreen.swift */; };
+		1904C4C92B1A827500D9C323 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1904C4BF2B1A827500D9C323 /* DrawingView.swift */; };
+		1904C4CA2B1A827500D9C323 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1904C4C02B1A827500D9C323 /* GameView.swift */; };
+		1904C4CB2B1A827500D9C323 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1904C4C12B1A827500D9C323 /* LaunchView.swift */; };
+		1904C4CC2B1A827500D9C323 /* ChatDebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1904C4C22B1A827500D9C323 /* ChatDebugView.swift */; };
+		1904C4CD2B1A827500D9C323 /* ConnectedDevicesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1904C4C32B1A827500D9C323 /* ConnectedDevicesList.swift */; };
+		1904C4CE2B1A827500D9C323 /* FloatingClouds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1904C4C42B1A827500D9C323 /* FloatingClouds.swift */; };
+		1904C4CF2B1A827500D9C323 /* TransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1904C4C52B1A827500D9C323 /* TransitionView.swift */; };
+		1904C4D02B1A827500D9C323 /* DrawingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1904C4C62B1A827500D9C323 /* DrawingViewController.swift */; };
+		1904C4D72B1A828E00D9C323 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1904C4D12B1A828E00D9C323 /* GameManager.swift */; };
+		1904C4D92B1A828E00D9C323 /* ARPictionaryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1904C4D32B1A828E00D9C323 /* ARPictionaryGame.swift */; };
+		1904C4DA2B1A828E00D9C323 /* CategoryGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1904C4D42B1A828E00D9C323 /* CategoryGenerator.swift */; };
+		1904C4DB2B1A828E00D9C323 /* MultiplayerSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1904C4D52B1A828E00D9C323 /* MultiplayerSession.swift */; };
+		1904C4DC2B1A828E00D9C323 /* NodeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1904C4D62B1A828E00D9C323 /* NodeManager.swift */; };
+		190D89DF2B15486F00B21A3D /* PictionAiRFruitClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 190D89DE2B15486F00B21A3D /* PictionAiRFruitClassifier.mlmodel */; };
+		193771C82AFDE2EE00D099A6 /* OpenAIKit in Frameworks */ = {isa = PBXBuildFile; productRef = 193771C72AFDE2EE00D099A6 /* OpenAIKit */; };
+		1951A4F62B6EEF360009B6BC /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1951A4F52B6EEF360009B6BC /* Array+Extensions.swift */; };
+		1951A4F82B6EF00B0009B6BC /* ARSCNView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1951A4F72B6EF00B0009B6BC /* ARSCNView+Extensions.swift */; };
+		1951A4FA2B6EF0700009B6BC /* SCNVector3+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1951A4F92B6EF0700009B6BC /* SCNVector3+Extensions.swift */; };
+		1951A4FC2B6EF0B60009B6BC /* SCNView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1951A4FB2B6EF0B60009B6BC /* SCNView+Extensions.swift */; };
+		19CEC2A52A9FEF4900502A15 /* PictionAiR_InternalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CEC2A42A9FEF4900502A15 /* PictionAiR_InternalApp.swift */; };
+		19CEC2A92A9FEF4B00502A15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19CEC2A82A9FEF4B00502A15 /* Assets.xcassets */; };
+		19CEC2AC2A9FEF4B00502A15 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19CEC2AB2A9FEF4B00502A15 /* Preview Assets.xcassets */; };
+		19CEC2B62A9FEF4B00502A15 /* PictionAiR_InternalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CEC2B52A9FEF4B00502A15 /* PictionAiR_InternalTests.swift */; };
+		19CEC2C02A9FEF4B00502A15 /* PictionAiR_InternalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CEC2BF2A9FEF4B00502A15 /* PictionAiR_InternalUITests.swift */; };
+		19CEC2C22A9FEF4B00502A15 /* PictionAiR_InternalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CEC2C12A9FEF4B00502A15 /* PictionAiR_InternalUITestsLaunchTests.swift */; };
+		B79D9AE72B27CD1A0092AF22 /* Codable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79D9AE42B27CD1A0092AF22 /* Codable+Extensions.swift */; };
+		B79D9AE82B27CD1A0092AF22 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79D9AE52B27CD1A0092AF22 /* UIImage+Extensions.swift */; };
+		B79D9AE92B27CD1A0092AF22 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79D9AE62B27CD1A0092AF22 /* View+Extensions.swift */; };
+		B79D9AEB2B27CD310092AF22 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79D9AEA2B27CD310092AF22 /* String+Extensions.swift */; };
+		B79D9AED2B294E000092AF22 /* ColorPickerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79D9AEC2B294E000092AF22 /* ColorPickerSheet.swift */; };
+		B7C976DF2B75E85D00067690 /* orange.scn in Resources */ = {isa = PBXBuildFile; fileRef = B7C976DE2B75E85D00067690 /* orange.scn */; };
+		B7C976E72B76838B00067690 /* apple.scn in Resources */ = {isa = PBXBuildFile; fileRef = B7C976E62B76838B00067690 /* apple.scn */; };
+		B7C976E92B7683B800067690 /* broccoli.scn in Resources */ = {isa = PBXBuildFile; fileRef = B7C976E82B7683B800067690 /* broccoli.scn */; };
+		B7C976EB2B7683C700067690 /* strawberry.scn in Resources */ = {isa = PBXBuildFile; fileRef = B7C976EA2B7683C700067690 /* strawberry.scn */; };
+		B7E0A47E2AEB284E00FAF365 /* UIColorHexSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B7E0A47D2AEB284E00FAF365 /* UIColorHexSwift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19CEC2B22A9FEF4B00502A15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19CEC2992A9FEF4900502A15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19CEC2A02A9FEF4900502A15;
+			remoteInfo = "PictionAiR-Internal";
+		};
+		19CEC2BC2A9FEF4B00502A15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19CEC2992A9FEF4900502A15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19CEC2A02A9FEF4900502A15;
+			remoteInfo = "PictionAiR-Internal";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1904C4BD2B1A827500D9C323 /* DrawingToolsPanel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingToolsPanel.swift; sourceTree = "<group>"; };
+		1904C4BE2B1A827500D9C323 /* SplashScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		1904C4BF2B1A827500D9C323 /* DrawingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		1904C4C02B1A827500D9C323 /* GameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		1904C4C12B1A827500D9C323 /* LaunchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+		1904C4C22B1A827500D9C323 /* ChatDebugView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatDebugView.swift; sourceTree = "<group>"; };
+		1904C4C32B1A827500D9C323 /* ConnectedDevicesList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectedDevicesList.swift; sourceTree = "<group>"; };
+		1904C4C42B1A827500D9C323 /* FloatingClouds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingClouds.swift; sourceTree = "<group>"; };
+		1904C4C52B1A827500D9C323 /* TransitionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionView.swift; sourceTree = "<group>"; };
+		1904C4C62B1A827500D9C323 /* DrawingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingViewController.swift; sourceTree = "<group>"; };
+		1904C4D12B1A828E00D9C323 /* GameManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		1904C4D32B1A828E00D9C323 /* ARPictionaryGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARPictionaryGame.swift; sourceTree = "<group>"; };
+		1904C4D42B1A828E00D9C323 /* CategoryGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryGenerator.swift; sourceTree = "<group>"; };
+		1904C4D52B1A828E00D9C323 /* MultiplayerSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiplayerSession.swift; sourceTree = "<group>"; };
+		1904C4D62B1A828E00D9C323 /* NodeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NodeManager.swift; sourceTree = "<group>"; };
+		190D89DE2B15486F00B21A3D /* PictionAiRFruitClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = PictionAiRFruitClassifier.mlmodel; sourceTree = "<group>"; };
+		1951A4F52B6EEF360009B6BC /* Array+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
+		1951A4F72B6EF00B0009B6BC /* ARSCNView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ARSCNView+Extensions.swift"; sourceTree = "<group>"; };
+		1951A4F92B6EF0700009B6BC /* SCNVector3+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCNVector3+Extensions.swift"; sourceTree = "<group>"; };
+		1951A4FB2B6EF0B60009B6BC /* SCNView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCNView+Extensions.swift"; sourceTree = "<group>"; };
+		19CEC2A12A9FEF4900502A15 /* PictionAiR-Internal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PictionAiR-Internal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19CEC2A42A9FEF4900502A15 /* PictionAiR_InternalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictionAiR_InternalApp.swift; sourceTree = "<group>"; };
+		19CEC2A82A9FEF4B00502A15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19CEC2AB2A9FEF4B00502A15 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		19CEC2B12A9FEF4B00502A15 /* PictionAiR-InternalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PictionAiR-InternalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19CEC2B52A9FEF4B00502A15 /* PictionAiR_InternalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictionAiR_InternalTests.swift; sourceTree = "<group>"; };
+		19CEC2BB2A9FEF4B00502A15 /* PictionAiR-InternalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PictionAiR-InternalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19CEC2BF2A9FEF4B00502A15 /* PictionAiR_InternalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictionAiR_InternalUITests.swift; sourceTree = "<group>"; };
+		19CEC2C12A9FEF4B00502A15 /* PictionAiR_InternalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictionAiR_InternalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B795E5462ADF3D0600EC4105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B79D9AE42B27CD1A0092AF22 /* Codable+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Codable+Extensions.swift"; sourceTree = "<group>"; };
+		B79D9AE52B27CD1A0092AF22 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		B79D9AE62B27CD1A0092AF22 /* View+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		B79D9AEA2B27CD310092AF22 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		B79D9AEC2B294E000092AF22 /* ColorPickerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerSheet.swift; sourceTree = "<group>"; };
+		B7C976DE2B75E85D00067690 /* orange.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = orange.scn; sourceTree = "<group>"; };
+		B7C976E62B76838B00067690 /* apple.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = apple.scn; sourceTree = "<group>"; };
+		B7C976E82B7683B800067690 /* broccoli.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = broccoli.scn; sourceTree = "<group>"; };
+		B7C976EA2B7683C700067690 /* strawberry.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = strawberry.scn; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19CEC29E2A9FEF4900502A15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E0A47E2AEB284E00FAF365 /* UIColorHexSwift in Frameworks */,
+				193771C82AFDE2EE00D099A6 /* OpenAIKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19CEC2AE2A9FEF4B00502A15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19CEC2B82A9FEF4B00502A15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19CEC2982A9FEF4900502A15 = {
+			isa = PBXGroup;
+			children = (
+				19CEC2A32A9FEF4900502A15 /* PictionAiR-Internal */,
+				19CEC2B42A9FEF4B00502A15 /* PictionAiR-InternalTests */,
+				19CEC2BE2A9FEF4B00502A15 /* PictionAiR-InternalUITests */,
+				19CEC2A22A9FEF4900502A15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19CEC2A22A9FEF4900502A15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19CEC2A12A9FEF4900502A15 /* PictionAiR-Internal.app */,
+				19CEC2B12A9FEF4B00502A15 /* PictionAiR-InternalTests.xctest */,
+				19CEC2BB2A9FEF4B00502A15 /* PictionAiR-InternalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19CEC2A32A9FEF4900502A15 /* PictionAiR-Internal */ = {
+			isa = PBXGroup;
+			children = (
+				190D89DE2B15486F00B21A3D /* PictionAiRFruitClassifier.mlmodel */,
+				B795E5462ADF3D0600EC4105 /* Info.plist */,
+				B7C976EA2B7683C700067690 /* strawberry.scn */,
+				B7C976DE2B75E85D00067690 /* orange.scn */,
+				B7C976E82B7683B800067690 /* broccoli.scn */,
+				B7C976E62B76838B00067690 /* apple.scn */,
+				B7B5AD352AA1171A00ACA171 /* Extensions */,
+				B7B5AD322AA1131A00ACA171 /* View */,
+				B7B5AD2F2AA10D7000ACA171 /* Model */,
+				19CEC2A42A9FEF4900502A15 /* PictionAiR_InternalApp.swift */,
+				19CEC2A82A9FEF4B00502A15 /* Assets.xcassets */,
+				19CEC2AA2A9FEF4B00502A15 /* Preview Content */,
+			);
+			path = "PictionAiR-Internal";
+			sourceTree = "<group>";
+		};
+		19CEC2AA2A9FEF4B00502A15 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				19CEC2AB2A9FEF4B00502A15 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		19CEC2B42A9FEF4B00502A15 /* PictionAiR-InternalTests */ = {
+			isa = PBXGroup;
+			children = (
+				19CEC2B52A9FEF4B00502A15 /* PictionAiR_InternalTests.swift */,
+			);
+			path = "PictionAiR-InternalTests";
+			sourceTree = "<group>";
+		};
+		19CEC2BE2A9FEF4B00502A15 /* PictionAiR-InternalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				19CEC2BF2A9FEF4B00502A15 /* PictionAiR_InternalUITests.swift */,
+				19CEC2C12A9FEF4B00502A15 /* PictionAiR_InternalUITestsLaunchTests.swift */,
+			);
+			path = "PictionAiR-InternalUITests";
+			sourceTree = "<group>";
+		};
+		B7B5AD2F2AA10D7000ACA171 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1904C4D32B1A828E00D9C323 /* ARPictionaryGame.swift */,
+				1904C4D42B1A828E00D9C323 /* CategoryGenerator.swift */,
+				1904C4D12B1A828E00D9C323 /* GameManager.swift */,
+				1904C4D52B1A828E00D9C323 /* MultiplayerSession.swift */,
+				1904C4D62B1A828E00D9C323 /* NodeManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B7B5AD322AA1131A00ACA171 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1904C4C22B1A827500D9C323 /* ChatDebugView.swift */,
+				1904C4C32B1A827500D9C323 /* ConnectedDevicesList.swift */,
+				1904C4BD2B1A827500D9C323 /* DrawingToolsPanel.swift */,
+				1904C4BF2B1A827500D9C323 /* DrawingView.swift */,
+				1904C4C62B1A827500D9C323 /* DrawingViewController.swift */,
+				1904C4C42B1A827500D9C323 /* FloatingClouds.swift */,
+				1904C4C02B1A827500D9C323 /* GameView.swift */,
+				1904C4C12B1A827500D9C323 /* LaunchView.swift */,
+				1904C4BE2B1A827500D9C323 /* SplashScreen.swift */,
+				1904C4C52B1A827500D9C323 /* TransitionView.swift */,
+				B79D9AEC2B294E000092AF22 /* ColorPickerSheet.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B7B5AD352AA1171A00ACA171 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1951A4F52B6EEF360009B6BC /* Array+Extensions.swift */,
+				1951A4F72B6EF00B0009B6BC /* ARSCNView+Extensions.swift */,
+				1951A4F92B6EF0700009B6BC /* SCNVector3+Extensions.swift */,
+				1951A4FB2B6EF0B60009B6BC /* SCNView+Extensions.swift */,
+				B79D9AE42B27CD1A0092AF22 /* Codable+Extensions.swift */,
+				B79D9AE52B27CD1A0092AF22 /* UIImage+Extensions.swift */,
+				B79D9AE62B27CD1A0092AF22 /* View+Extensions.swift */,
+				B79D9AEA2B27CD310092AF22 /* String+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19CEC2A02A9FEF4900502A15 /* PictionAiR-Internal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19CEC2C52A9FEF4B00502A15 /* Build configuration list for PBXNativeTarget "PictionAiR-Internal" */;
+			buildPhases = (
+				19CEC29D2A9FEF4900502A15 /* Sources */,
+				19CEC29E2A9FEF4900502A15 /* Frameworks */,
+				19CEC29F2A9FEF4900502A15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PictionAiR-Internal";
+			packageProductDependencies = (
+				B7E0A47D2AEB284E00FAF365 /* UIColorHexSwift */,
+				193771C72AFDE2EE00D099A6 /* OpenAIKit */,
+			);
+			productName = "PictionAiR-Internal";
+			productReference = 19CEC2A12A9FEF4900502A15 /* PictionAiR-Internal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19CEC2B02A9FEF4B00502A15 /* PictionAiR-InternalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19CEC2C82A9FEF4B00502A15 /* Build configuration list for PBXNativeTarget "PictionAiR-InternalTests" */;
+			buildPhases = (
+				19CEC2AD2A9FEF4B00502A15 /* Sources */,
+				19CEC2AE2A9FEF4B00502A15 /* Frameworks */,
+				19CEC2AF2A9FEF4B00502A15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19CEC2B32A9FEF4B00502A15 /* PBXTargetDependency */,
+			);
+			name = "PictionAiR-InternalTests";
+			productName = "PictionAiR-InternalTests";
+			productReference = 19CEC2B12A9FEF4B00502A15 /* PictionAiR-InternalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		19CEC2BA2A9FEF4B00502A15 /* PictionAiR-InternalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19CEC2CB2A9FEF4B00502A15 /* Build configuration list for PBXNativeTarget "PictionAiR-InternalUITests" */;
+			buildPhases = (
+				19CEC2B72A9FEF4B00502A15 /* Sources */,
+				19CEC2B82A9FEF4B00502A15 /* Frameworks */,
+				19CEC2B92A9FEF4B00502A15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19CEC2BD2A9FEF4B00502A15 /* PBXTargetDependency */,
+			);
+			name = "PictionAiR-InternalUITests";
+			productName = "PictionAiR-InternalUITests";
+			productReference = 19CEC2BB2A9FEF4B00502A15 /* PictionAiR-InternalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19CEC2992A9FEF4900502A15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					19CEC2A02A9FEF4900502A15 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					19CEC2B02A9FEF4B00502A15 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 19CEC2A02A9FEF4900502A15;
+					};
+					19CEC2BA2A9FEF4B00502A15 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 19CEC2A02A9FEF4900502A15;
+					};
+				};
+			};
+			buildConfigurationList = 19CEC29C2A9FEF4900502A15 /* Build configuration list for PBXProject "PictionAiR-Internal" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19CEC2982A9FEF4900502A15;
+			packageReferences = (
+				B7E0A47C2AEB284E00FAF365 /* XCRemoteSwiftPackageReference "UIColor-Hex-Swift" */,
+				193771C62AFDE2EE00D099A6 /* XCRemoteSwiftPackageReference "OpenAI" */,
+			);
+			productRefGroup = 19CEC2A22A9FEF4900502A15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19CEC2A02A9FEF4900502A15 /* PictionAiR-Internal */,
+				19CEC2B02A9FEF4B00502A15 /* PictionAiR-InternalTests */,
+				19CEC2BA2A9FEF4B00502A15 /* PictionAiR-InternalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19CEC29F2A9FEF4900502A15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7C976E92B7683B800067690 /* broccoli.scn in Resources */,
+				B7C976E72B76838B00067690 /* apple.scn in Resources */,
+				19CEC2AC2A9FEF4B00502A15 /* Preview Assets.xcassets in Resources */,
+				B7C976EB2B7683C700067690 /* strawberry.scn in Resources */,
+				B7C976DF2B75E85D00067690 /* orange.scn in Resources */,
+				19CEC2A92A9FEF4B00502A15 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19CEC2AF2A9FEF4B00502A15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19CEC2B92A9FEF4B00502A15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19CEC29D2A9FEF4900502A15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B79D9AE72B27CD1A0092AF22 /* Codable+Extensions.swift in Sources */,
+				1904C4C82B1A827500D9C323 /* SplashScreen.swift in Sources */,
+				B79D9AE82B27CD1A0092AF22 /* UIImage+Extensions.swift in Sources */,
+				1951A4FA2B6EF0700009B6BC /* SCNVector3+Extensions.swift in Sources */,
+				1904C4CD2B1A827500D9C323 /* ConnectedDevicesList.swift in Sources */,
+				1951A4F82B6EF00B0009B6BC /* ARSCNView+Extensions.swift in Sources */,
+				1904C4CE2B1A827500D9C323 /* FloatingClouds.swift in Sources */,
+				1904C4CF2B1A827500D9C323 /* TransitionView.swift in Sources */,
+				B79D9AED2B294E000092AF22 /* ColorPickerSheet.swift in Sources */,
+				1904C4D02B1A827500D9C323 /* DrawingViewController.swift in Sources */,
+				19CEC2A52A9FEF4900502A15 /* PictionAiR_InternalApp.swift in Sources */,
+				1904C4DC2B1A828E00D9C323 /* NodeManager.swift in Sources */,
+				1904C4D72B1A828E00D9C323 /* GameManager.swift in Sources */,
+				1951A4FC2B6EF0B60009B6BC /* SCNView+Extensions.swift in Sources */,
+				1904C4C92B1A827500D9C323 /* DrawingView.swift in Sources */,
+				B79D9AEB2B27CD310092AF22 /* String+Extensions.swift in Sources */,
+				1904C4CB2B1A827500D9C323 /* LaunchView.swift in Sources */,
+				1904C4DB2B1A828E00D9C323 /* MultiplayerSession.swift in Sources */,
+				1904C4CC2B1A827500D9C323 /* ChatDebugView.swift in Sources */,
+				1904C4CA2B1A827500D9C323 /* GameView.swift in Sources */,
+				1904C4C72B1A827500D9C323 /* DrawingToolsPanel.swift in Sources */,
+				1904C4D92B1A828E00D9C323 /* ARPictionaryGame.swift in Sources */,
+				B79D9AE92B27CD1A0092AF22 /* View+Extensions.swift in Sources */,
+				190D89DF2B15486F00B21A3D /* PictionAiRFruitClassifier.mlmodel in Sources */,
+				1951A4F62B6EEF360009B6BC /* Array+Extensions.swift in Sources */,
+				1904C4DA2B1A828E00D9C323 /* CategoryGenerator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19CEC2AD2A9FEF4B00502A15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19CEC2B62A9FEF4B00502A15 /* PictionAiR_InternalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19CEC2B72A9FEF4B00502A15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19CEC2C02A9FEF4B00502A15 /* PictionAiR_InternalUITests.swift in Sources */,
+				19CEC2C22A9FEF4B00502A15 /* PictionAiR_InternalUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19CEC2B32A9FEF4B00502A15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19CEC2A02A9FEF4900502A15 /* PictionAiR-Internal */;
+			targetProxy = 19CEC2B22A9FEF4B00502A15 /* PBXContainerItemProxy */;
+		};
+		19CEC2BD2A9FEF4B00502A15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19CEC2A02A9FEF4900502A15 /* PictionAiR-Internal */;
+			targetProxy = 19CEC2BC2A9FEF4B00502A15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		19CEC2C32A9FEF4B00502A15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		19CEC2C42A9FEF4B00502A15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19CEC2C62A9FEF4B00502A15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PictionAiR-Internal/Preview Content\"";
+				DEVELOPMENT_TEAM = 5S5Q89JC5R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PictionAiR-Internal/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = PictionAiR;
+				INFOPLIST_KEY_NSCameraUsageDescription = "PictionAiR requires access to your camera to enable Augmented Reality Experiences.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "PictionAiR wants to save snapshots to your Photo Library";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pictionair.PictionAiR-Internal1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19CEC2C72A9FEF4B00502A15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PictionAiR-Internal/Preview Content\"";
+				DEVELOPMENT_TEAM = 5S5Q89JC5R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PictionAiR-Internal/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = PictionAiR;
+				INFOPLIST_KEY_NSCameraUsageDescription = "PictionAiR requires access to your camera to enable Augmented Reality Experiences.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "PictionAiR wants to save snapshots to your Photo Library";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pictionair.PictionAiR-Internal1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		19CEC2C92A9FEF4B00502A15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D46454C83G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pictionair.PictionAiR-InternalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PictionAiR-Internal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PictionAiR-Internal";
+			};
+			name = Debug;
+		};
+		19CEC2CA2A9FEF4B00502A15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D46454C83G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pictionair.PictionAiR-InternalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PictionAiR-Internal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PictionAiR-Internal";
+			};
+			name = Release;
+		};
+		19CEC2CC2A9FEF4B00502A15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D46454C83G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pictionair.PictionAiR-InternalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PictionAiR-Internal";
+			};
+			name = Debug;
+		};
+		19CEC2CD2A9FEF4B00502A15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D46454C83G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pictionair.PictionAiR-InternalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PictionAiR-Internal";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19CEC29C2A9FEF4900502A15 /* Build configuration list for PBXProject "PictionAiR-Internal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19CEC2C32A9FEF4B00502A15 /* Debug */,
+				19CEC2C42A9FEF4B00502A15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19CEC2C52A9FEF4B00502A15 /* Build configuration list for PBXNativeTarget "PictionAiR-Internal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19CEC2C62A9FEF4B00502A15 /* Debug */,
+				19CEC2C72A9FEF4B00502A15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19CEC2C82A9FEF4B00502A15 /* Build configuration list for PBXNativeTarget "PictionAiR-InternalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19CEC2C92A9FEF4B00502A15 /* Debug */,
+				19CEC2CA2A9FEF4B00502A15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19CEC2CB2A9FEF4B00502A15 /* Build configuration list for PBXNativeTarget "PictionAiR-InternalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19CEC2CC2A9FEF4B00502A15 /* Debug */,
+				19CEC2CD2A9FEF4B00502A15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		193771C62AFDE2EE00D099A6 /* XCRemoteSwiftPackageReference "OpenAI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/FuturraGroup/OpenAI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.6.0;
+			};
+		};
+		B7E0A47C2AEB284E00FAF365 /* XCRemoteSwiftPackageReference "UIColor-Hex-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yeahdongcn/UIColor-Hex-Swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.9;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		193771C72AFDE2EE00D099A6 /* OpenAIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 193771C62AFDE2EE00D099A6 /* XCRemoteSwiftPackageReference "OpenAI" */;
+			productName = OpenAIKit;
+		};
+		B7E0A47D2AEB284E00FAF365 /* UIColorHexSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B7E0A47C2AEB284E00FAF365 /* XCRemoteSwiftPackageReference "UIColor-Hex-Swift" */;
+			productName = UIColorHexSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 19CEC2992A9FEF4900502A15 /* Project object */;
+}
