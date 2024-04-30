@@ -16,7 +16,7 @@ An interactive iOS mobile app to play Pictionary in AR world with multi-peer con
   </tr>
   <tr>
     <td><img src="piction-air/assets/main_screen.jpg" width="250"></td>
-    <td><img src="piction-air/assets/hello.png" width="250"></td>
+    <td><img src="piction-air/assets/hello.PNG" width="250"></td>
   </tr>
 </table>
 <table>
@@ -35,7 +35,7 @@ An interactive iOS mobile app to play Pictionary in AR world with multi-peer con
     <th>3D Drawing Generation</th>
   </tr>
   <tr>
-    <td><img src="piction-air/assets/apple_2D.png" width="250"></td>
+    <td><img src="piction-air/assets/apple_2D.PNG" width="250"></td>
     <td><img src="piction-air/assets/apple_3D.jpg" width="250"></td>
   </tr>
 </table>
